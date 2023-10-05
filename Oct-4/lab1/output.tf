@@ -1,4 +1,4 @@
 output "root_out_publicip" {
-    description = "output variable public ip"
-    value = aws_instance.root_res_ec2.public_ip
+  description = "output variable public ip"
+  value       = module.root_mod_ec2.c1_out_publicip
 }
